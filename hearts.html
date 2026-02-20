@@ -56,8 +56,8 @@
             max-width: 900px;
         }
         .footer { margin-top: 10px; font-style: italic; font-size: 0.9em; opacity: 0.7; }
-        .footer a { color: inherit; text-decoration: none; border-bottom: 1px dotted transparent; transition: border 0.3s; }
-        .footer a:hover { border-bottom: 1px dotted #333; }
+        .footer a { color: #2eb9cc; text-decoration: none; border-bottom: 1px dotted transparent; transition: border 0.3s, color 0.3s; }
+        .footer a:hover { border-bottom: 1px dotted #2eb9cc; color: #2599ad; }
         
         /* Color input styling */
         input[type="color"] {
@@ -80,6 +80,9 @@
         input[type="color"]::-moz-color-swatch {
             border: none;
             border-radius: 50%;
+        }
+        input[type="range"] {
+            accent-color: #2eb9cc;
         }
         .help-btn {
             padding: 8px 16px;
@@ -183,8 +186,8 @@
     <canvas id="heartCanvas"></canvas>
     
     <div class="footer">
-        Inspired by <a href="https://profconradi.com/" target="_blank" style="color:#1a73e8;">Simone Conradi, 2025</a> | 
-        Visualized by <a href="https://zurman-inc.github.io/" target="_blank" style="color:#1a73e8;">Zurman Inc.</a>
+        Inspired by <a href="https://profconradi.com/" target="_blank">Simone Conradi, 2025</a> | 
+        Visualized by <a href="https://zurman-inc.github.io/" target="_blank">Zurman Inc.</a>
         <!-- 2026.02.19 gemini thinking-->
     </div>
 </div>
